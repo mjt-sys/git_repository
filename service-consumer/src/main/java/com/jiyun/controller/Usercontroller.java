@@ -15,7 +15,7 @@ public class Usercontroller {
     @RequestMapping("/findName")
     @ResponseBody
     public String findName(){
-
+          giao
         return us.findName();
     }
 
